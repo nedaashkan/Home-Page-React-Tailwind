@@ -52,9 +52,9 @@ export default function ImageSlider() {
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
       >
-        {ImageSliderData.map((img) => {
+        {ImageSliderData.map((img, index) => {
           return (
-            <SwiperSlide className="w-full h-2/4">
+            <SwiperSlide className="w-full h-2/4" key={index}>
               <Image imgAlt={img.alt} imgSrc={img.src} imgLink={img.link} />
             </SwiperSlide>
           );
