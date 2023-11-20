@@ -1,8 +1,12 @@
+// fix this slider make like desing
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import Logo from "./Logo";
+import "./LogoSlider.css";
+
 let logoSliderData = [
   {
     src: "/src/assets/LogoSlider/1.png",
@@ -39,6 +43,11 @@ let logoSliderData = [
     alt: "/",
     link: "",
   },
+  {
+    src: "/src/assets/LogoSlider/7.png",
+    alt: "/",
+    link: "",
+  },
 ];
 
 export default function LogoSlider() {
@@ -49,13 +58,13 @@ export default function LogoSlider() {
         loop={true}
         navigation
         spaceBetween={0}
-        slidesPerView={6}
+        slidesPerView={7}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
       >
         {logoSliderData.map((logo, index) => {
           return (
-            <SwiperSlide className="w-full h-2/4" key={index}>
+            <SwiperSlide key={index}>
               <Logo
                 LogoAlt={logo.alt}
                 LogoSrc={logo.src}
