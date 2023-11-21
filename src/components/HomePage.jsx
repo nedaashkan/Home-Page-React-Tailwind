@@ -4,6 +4,8 @@ import LogoSlider from "./LogoSlider";
 import ButtonSection from "./ButtonSection";
 import ProductImgSection from "./ProductImgSection";
 import ClothingAccessoriesSection from "./ClothingAccessoriesSection";
+import ActionFiguresSection from "./ActionFiguresSection";
+import Footer from "./Footer";
 
 export default function HomePage() {
   return (
@@ -14,6 +16,8 @@ export default function HomePage() {
       <ButtonSection />
       <ProductImgSection />
       <ClothingAccessoriesSection />
+      <ActionFiguresSection />
+      <Footer />
     </div>
   );
 }

@@ -24,8 +24,8 @@ let ClothingAccessoriesSectionData = [
 
 export default function ClothingAccessoriesSection() {
   return (
-    <div className="ClothingAccessoriesSection">
-      <div className="flex  justify-center space-x-2 md:space-x-4 lg:space-x-10 mt-4 md:mt-5 lg:mt-10">
+    <div className="ClothingAccessoriesSection mt-4 md:mt-5 lg:mt-10">
+      <div className="flex  justify-center space-x-5 md:space-x-16 lg:space-x-16">
         <div className="grid grid-cols-4 justify-items-center gap-x-1 w-3/5">
           {ClothingAccessoriesSectionData.map((img, index) => {
             return (
