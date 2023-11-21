@@ -7,7 +7,7 @@ export default function HomePage() {
     <div className="HomePage">
       <Header />
       <ImageSlider />
-      {/* <LogoSlider /> */}
+      <LogoSlider />
     </div>
   );
 }
