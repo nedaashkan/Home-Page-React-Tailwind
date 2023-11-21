@@ -1,7 +1,7 @@
 export default function ProductImgSection() {
   return (
     <div className="ProductImgSection">
-      <div className="flex justify-center mt-6 md:mt-10 lg:mt-16 space-x-3 md:space-x-5 lg:space-x-10">
+      <div className="flex flex-col lg:flex-row md:flex-row items-center space-y-4  justify-center mt-6 md:mt-10 lg:mt-16 space-x-3 md:space-x-5 lg:space-x-10">
         <img
           src="/src/assets/ProductImgSection/1.png"
           alt="/"
