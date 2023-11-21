@@ -1,5 +1,3 @@
-// fix this slider make like desing
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
