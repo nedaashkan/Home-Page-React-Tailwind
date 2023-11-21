@@ -52,7 +52,7 @@ let logoSliderData = [
 
 export default function LogoSlider() {
   return (
-    <div className="LogoSlider">
+    <div className="LogoSlider mt-2 md:mt-4 lg:mt-6">
       <Swiper
         modules={[Navigation]}
         loop={true}
