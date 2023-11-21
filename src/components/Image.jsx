@@ -1,8 +1,8 @@
-export default function Image({ imgAlt, imgSrc, imgLink }) {
+export default function Image({ imgAlt, imgSrc, imgLink,imgClass }) {
   return (
     <>
       <a href={imgLink}>
-        <img alt={imgAlt} src={imgSrc} className="h-fit" />
+        <img alt={imgAlt} src={imgSrc} className={imgClass} />
       </a>
     </>
   );

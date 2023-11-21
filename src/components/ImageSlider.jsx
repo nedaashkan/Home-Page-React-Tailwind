@@ -55,7 +55,7 @@ export default function ImageSlider() {
         {ImageSliderData.map((img, index) => {
           return (
             <SwiperSlide className="w-full h-2/4" key={index}>
-              <Image imgAlt={img.alt} imgSrc={img.src} imgLink={img.link} />
+              <Image imgAlt={img.alt} imgSrc={img.src} imgLink={img.link} imgClass={"h-fit"} />
             </SwiperSlide>
           );
         })}

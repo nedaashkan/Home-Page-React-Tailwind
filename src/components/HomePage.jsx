@@ -3,6 +3,7 @@ import ImageSlider from "./ImageSlider";
 import LogoSlider from "./LogoSlider";
 import ButtonSection from "./ButtonSection";
 import ProductImgSection from "./ProductImgSection";
+import ClothingAccessoriesSection from "./ClothingAccessoriesSection";
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
       <LogoSlider />
       <ButtonSection />
       <ProductImgSection />
+      <ClothingAccessoriesSection />
     </div>
   );
 }
