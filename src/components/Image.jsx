@@ -1,4 +1,9 @@
-export default function Image({ imgAlt, imgSrc, imgLink,imgClass }) {
+export default function Image({
+  imgAlt,
+  imgSrc,
+  imgLink,
+  imgClass,
+}) {
   return (
     <>
       <a href={imgLink}>
