@@ -5,12 +5,12 @@ export default function ProductImgSection() {
         <img
           src="/src/assets/ProductImgSection/1.png"
           alt="/"
-          className="w-2/6"
+          className="w-2/6 md:w-2/6 lg:w-2/6"
         />
         <img
           src="/src/assets/ProductImgSection/2.png"
           alt="/"
-          className="w-2/6"
+          className="w-2/6 md:w-2/6 lg:w-2/6"
         />
       </div>
       <div className="mt-4 md:mt-10 lg:mt-12 w-4/5 h-[1px] bg-[#8c969759] mx-auto"></div>
